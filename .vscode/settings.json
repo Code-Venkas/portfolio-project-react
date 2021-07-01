@@ -1,0 +1,5 @@
+{
+    "emmet.optimizeStylesheetParsing": false,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true
+}

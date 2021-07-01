@@ -12,7 +12,7 @@
 }
 
 body {
-font-family: "Roboto Condesed" sans-serif;
+font-family: "Roboto Condensed" sans-serif !important;
 }
 
 /****Navbar CSS ****/
@@ -144,4 +144,30 @@ transition: .2s ease-in-out;
 display: none;
   }
 
+}
+
+/**********Author image**********/
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.author{
+
+  width: 400px;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-orange);
+}
+
+.about-heading{
+  color: var(--primary-orange);
+}
+
+@media(max-width: 468px) {
+  .author{
+    width: 10rem;
+  }
 }
