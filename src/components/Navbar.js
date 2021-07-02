@@ -22,10 +22,10 @@ export const Navbar = () => {
               <a className="nav-link" href="#">About Me</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Services</a>
+              <a className="nav-link" href="#">Skills/Education</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Expierence</a>
+              <a className="nav-link" href="#">Experience</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Portfolio</a>
