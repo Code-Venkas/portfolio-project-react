@@ -30,8 +30,8 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle">
                                     <FontAwesomeIcon className="icon" icon={["fas", "cogs"]} size="3x" /></div>
-                                <h3>Probelm Solving</h3>
-                                <p>I find joy in solving various issues both in my professional and personal life</p>
+                                <h3>Problem Solving</h3>
+                                <p>I find joy in solving various issues both in my professional and personal life.</p>
                             </div>
                         </div>
                         {/* - */}
@@ -48,10 +48,11 @@ const Skills = () => {
                             <div className="box">
                                 <div className="circle">
                                     <FontAwesomeIcon className="icon" icon={["fas", "book-reader"]} size="3x"/></div>
-                                <h3>Continuing Education</h3>
-                                <p>Data Structures and Algorithms.
-                                <br />
-                                Read <i>Automate the boring stuff with Python.</i></p>
+                                <h3>Education</h3>
+                                <p>
+                               Graduated Woz-U in August 2021
+                               
+                                </p>
 
                             </div>
                         </div>

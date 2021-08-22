@@ -10,6 +10,7 @@
   --primary-dark: rgba(52,58,64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-black: #000000;
 }
 
 body {
@@ -91,6 +92,11 @@ nav ul li {
 }
 
 .main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+.main-info h2 {
   color: var(--primary-orange);
   text-transform: uppercase;
 }
@@ -222,6 +228,7 @@ background: var(--primary-light-grey);
   padding: 0.650rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
+  transition: 0.3s ease-in-out;
 }
 
 .skills .box:hover {
@@ -244,4 +251,52 @@ background: var(--primary-light-grey);
 font-size: 1.5rem;
   }
 
+}
+
+/********Portfolio*******/
+
+.portfolio-wrapper{
+  background: var(--primary-light-grey);
+  padding: 3rem 0;
+}
+
+.portfolio-image{
+  width: 15 rem;
+  border: 1px solid var(--primary-orange);
+  padding: 0 0.5rem;
+}
+
+
+.portfolio-image-box {
+  display: flex;
+  position:relative;
+  margin: 1rem;
+}
+
+
+/*------GitHub Box------*/
+
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.github :hover{
+ background: var(--primary-orange);
+ border-radius: 5rem;
+ 
+}
+
+/*-------- Overflow Box ---------*/
+.overflow {
+  position:absolute;
+  opacity: 1;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid var(--primary-red);
+  cursor: pointer;
 }
