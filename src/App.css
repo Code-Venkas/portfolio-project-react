@@ -386,7 +386,7 @@ textarea.form-control {
 .error-message { 
   color:var(--primary-white);
   background: var(--primary-hover-red);
-  
+  text-align: left;
 }
 
 .success-message {
