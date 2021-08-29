@@ -6,11 +6,13 @@
 :root {
   --primary-white: #ffffff;
   --primary-light-grey: #f4f4f4;
+  --primary-dark-grey: #f4f4f431;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(52,58,64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-black: #000000;
+  --primary-green: #3fd802d5;
 }
 
 body {
@@ -285,7 +287,8 @@ font-size: 1.5rem;
 
 .github :hover{
  background: var(--primary-orange);
- border-radius: 5rem;
+ border-radius: 7rem;
+ border-width: -0.5rem;
  
 }
 
@@ -299,4 +302,111 @@ font-size: 1.5rem;
   top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
+}
+
+/*---------Contacts------*/
+
+.contact {
+  background:var(--primary-dark);
+  padding: 3rem 0;
+}
+
+.contact h1 {
+  color:var(--primary-orange);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contact p {
+color: var(--primary-light-grey);
+font-size:  1.2rem;
+}
+
+/*-----Inputs-------*/
+
+.contact input, .contact textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-light-grey);
+  border-radius: 0;
+  color:var(--primary-orange);
+  outline: 0 !important;
+  box-shadow: none !important;
+  top: 0;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contact .container{
+  padding: 4rem 0;
+}
+
+.contact input:focus, .contact textarea:focus {
+  background: transparent;
+  color: var(--primary-orange);
+  border-bottom: 0.125rem solid var(--primary-dark-grey);
+}
+
+.contact textarea {
+  height: 12.2rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+.line{
+  position: relative;
+  top: -0.8rem;
+  width:0;
+  height: 0.125rem;
+  background: var(--primary-orange);
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+  width:100%;
+  transition: width 0.5s ease-in-out;
+}
+
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+
+.error-message { 
+  color:var(--primary-white);
+  background: var(--primary-hover-red);
+  
+}
+
+.success-message {
+font-weight: 900;
+
+color: var(--primary-green);
+
+}
+
+/*---------Media---------*/
+@media (max-width: 768px) {
+  .contact{
+    overflow-x: hidden;
+  }
+
+  .contact .container{
+    padding: 0 1rem;
+  }
+
+  .contact p{
+    padding: 0 0.4rem;
+  }
 }

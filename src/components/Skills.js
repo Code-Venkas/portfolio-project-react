@@ -50,7 +50,8 @@ const Skills = () => {
                                     <FontAwesomeIcon className="icon" icon={["fas", "book-reader"]} size="3x"/></div>
                                 <h3>Education</h3>
                                 <p>
-                               Graduated Woz-U in August 2021
+                            Software Development - Full Stack Web Development
+                            Southern Careers Institute Powered by Woz-U - August 2021
                                
                                 </p>
 

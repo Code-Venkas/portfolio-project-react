@@ -10,6 +10,7 @@ import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
+import ContactMe from './components/ContactMe';
 
 library.add(fab,fas,faCheckSquare, faCoffee);
 
@@ -47,7 +48,8 @@ function App() {
       <Header />
       <AboutMe />
       <Skills />
-      <Portfolio/>
+      <Portfolio />
+      <ContactMe />
 
     </>
       );
