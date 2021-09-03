@@ -9,8 +9,6 @@ const Header = () => {
 
                 <h1>Mansur Saleem</h1>
                 <h2><i>Junior Web Developer</i></h2>
-
-                <a href ="#" className="btn-main-offer">Contact Me</a>
                 
 
             

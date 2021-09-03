@@ -24,11 +24,9 @@ export const Navbar = () => {
             <li className="nav-item">
               <a className="nav-link" href="#">Skills/Education</a>
             </li>
+           
             <li className="nav-item">
-              <a className="nav-link" href="#">Experience</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Portfolio</a>
+              <a className="nav-link" href="#">GitHub</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Contact Me</a>

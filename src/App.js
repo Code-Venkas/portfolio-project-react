@@ -11,6 +11,7 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';
 
 library.add(fab,fas,faCheckSquare, faCoffee);
 
@@ -50,6 +51,7 @@ function App() {
       <Skills />
       <Portfolio />
       <ContactMe />
+      <Footer />
 
     </>
       );
