@@ -6,9 +6,8 @@ const ContactMe = () => {
 
 
     return (
-        <div className="contact">
+        <div id="contacts" className="contact">
             <div className="text-center">
-                <h1></h1>
             </div>
             <div className="container">
                 <div className="row">

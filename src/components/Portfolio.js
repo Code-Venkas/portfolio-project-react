@@ -4,7 +4,7 @@ import portfolio from '../images/portfolio.png'
 import githublogo from '../images/PNG/GitHubLargeBlack.png'
 const Portfolio = () => {
     return (
-        <div className="portfolio-wrapper">
+        <div  id="github" className="portfolio-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">GitHub Repo</h1>
                 <div className="github">
